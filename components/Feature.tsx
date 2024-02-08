@@ -7,7 +7,7 @@ const Features = () => {
     <section className="flex-col flexCenter overflow-hidden bg-center bg-no-repeat py-24"
    style={{
       
-      'background-color':"#282828"
+      backgroundColor:"#282828"
     }}
     >
       <div className="max-container padding-container relative w-full flex justify-end">
@@ -24,7 +24,7 @@ const Features = () => {
         <div className="z-20 flex w-full flex-col lg:w-[60%]"
         style={{
       
-      'background-color':"#282828"
+      backgroundColor:"#282828"
     }}>
           <div className='relative'>
 
@@ -32,7 +32,7 @@ const Features = () => {
             
             style={{
       
-      'color':"#B29241"
+      color:"#B29241"
     }}
             >Our Features</h2>
           </div>
@@ -63,7 +63,7 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
     <div
     style={{
       
-      'background-color':"#B29241"
+      backgroundColor:"#B29241"
     }}>
     <li className="flex w-full flex-1 flex-col items-start"
     
@@ -78,14 +78,14 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
       <h2 className="bold-20 lg:bold-32 mt-5 capitalize"
       style={{
       
-      'background-color':"#B29241"
+      backgroundColor:"#B29241"
     }}>
         {title}
       </h2>
       <p className="regular-16 mt-5 bg-white/80  lg:mt-[30px] lg:bg-none text-black"
       style={{
       
-      'background-color':"#B29241"
+      backgroundColor:"#B29241"
     }}
     >
         {description}

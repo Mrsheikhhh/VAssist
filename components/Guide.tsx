@@ -7,7 +7,7 @@ const Guide = () => {
     
     style={{
       
-      'background-color':'#282828'
+      backgroundColor:'#282828'
       
       
     }}
@@ -21,7 +21,7 @@ const Guide = () => {
           <h2 className="bold-40  lg:bold-64 xl:max-w-[390px]"
           style={{
       
-      'color':"#B29241"
+      color:"#B29241"
     }}>Revolutionize Your Productivity with VAssist</h2>
           <p className="regular-16 text-white xl:max-w-[520px]">Transform your to-do list into a productivity powerhouse with VAssist. Our platform seamlessly blends advanced technology with expert human assistance to provide you with unparalleled virtual support. Delegate tasks effortlessly, and watch as our experienced team springs into action, ensuring nothing falls through the cracks. With intuitive task management and transparent communication, VAssist empowers you to achieve your goals with ease. Say hello to a new era of productivity. Say hello to VAssist</p>
         </div>

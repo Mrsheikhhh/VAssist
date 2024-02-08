@@ -84,7 +84,7 @@ const Camp = () => {
         <div className=" p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl"
         style={{
         
-        "background-color":"#B29241"
+        backgroundColor:"#B29241"
         }}>
           <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-black">
             <strong>Simplify Your Life</strong> Delegate, Relax, and Achieve More with VAssist

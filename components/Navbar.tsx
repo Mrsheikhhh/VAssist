@@ -5,18 +5,14 @@ import Button from "./Button"
 
 const Navbar = () => {
   return (
-    <nav className="flexBetween max-container padding-container relative z-30 py-5 "
-    
-    style={{
-      
-      'background-color':'#282828',
-      'display':'flex',
-      'justify-content':'center',
-      'align-items':'center'
+    <nav className="flexBetween max-container padding-container relative z-30 py-5" style={{ 
+    backgroundColor:'#282828',
+      display:'flex',
+      justifyContent:'center',
+      alignItems:'center',
       
       
-    }}
-    >
+    }}>
       <Link href="/">
         <Image src="/hilink-logo.png" alt="logo" width={100} height={75} />
       </Link>

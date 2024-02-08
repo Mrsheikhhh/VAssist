@@ -12,7 +12,7 @@ const GetApp = () => {
           <div className="flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">
              
                 
-  >
+  
       <br />
 
    

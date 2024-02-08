@@ -8,8 +8,8 @@ const Footer = () => {
     <footer className="flexCenter mb-24"
     style={{
       
-      'background-color':"#282828",
-      'color':"white"
+      backgroundColor:"#282828",
+      color:"white"
     }}
     
     
