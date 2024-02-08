@@ -1,5 +1,5 @@
 import Camp from "@/components/Camp";
-import Features from "@/components/Feature";
+import Feature from "@/components/Feature";
 import GetApp from "@/components/GetApp";
 import Guide from "@/components/Guide";
 import Hero from "@/components/Hero";
