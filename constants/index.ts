@@ -13,37 +13,38 @@ export const PEOPLE_URL = [
   '/person-2.png',
   '/person-3.png',
   '/person-4.png',
+  
 ];
 
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
+    title: 'Tailored Assistance',
     icon: '/map.svg',
     variant: 'green',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      ' At VAssist, we understand that every clients needs are unique. Thats why we offer personalized virtual assistance tailored to your specific requirements.',
   },
   {
-    title: 'Set an adventure schedule',
+    title: 'Efficient Task Management',
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Say goodbye to juggling multiple tasks and hello to seamless organization with VAssist. Our intuitive task management system allows you to delegate tasks effortlessly and track their progress in real-time",
   },
   {
-    title: 'Technology using augment reality',
+    title: 'Effective Communication',
     icon: '/tech.svg',
     variant: 'green',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'Communication is key to success, which is why we prioritize clear and transparent communication at VAssist. Our platform facilitates seamless interaction between you and your virtual assistant, ensuring that instructions are understood and expectations are met. ',
   },
   {
-    title: 'Many new locations every month',
+    title: '24/7 Availability',
     icon: '/location.svg',
     variant: 'orange',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'Life does not adhere to a 9-to-5 schedule, and neither do we. At VAssist, our virtual assistants are available round the clock to provide support whenever you need it.',
   },
 ];
 
@@ -52,25 +53,24 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
+      'About VAssist',
       'Press Releases',
-      'Environment',
-      'Jobs',
+     
       'Privacy Policy',
       'Contact Us',
     ],
   },
   {
     title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    links: ['UCP', 'Entrepreneurship', 'UCP FB'],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Team', value: '0318 7683366' },
+    { label: 'Email', value: 'VAssist@gmail.com' },
   ],
 };
 

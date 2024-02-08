@@ -10,20 +10,27 @@ interface CampProps {
 
 const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps) => {
   return (
-    <div className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}>
+    <div className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-center` }
+   >
+  
+    
+    
      <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
       <div className="flexCenter gap-4">
-        <div className="rounded-full bg-green-50 p-4">
-          <Image
-            src="/folded-map.svg"
-            alt="map"
-            width={28}
-            height={28}
-          />
+        <div className="rounded-full bg-black p-4">
+        
         </div>
         <div className="flex flex-col gap-1">
-          <h4 className="bold-18 text-white">{title}</h4>
-          <p className="regular-14 text-white">{subtitle}</p>
+          <h4 className="bold-18"
+          style={{
+      
+      'color':"#282828"
+    }}>{title}</h4>
+          <p className="regular-14 text-white"
+          style={{
+      
+      'color':"#282828"
+    }}>{subtitle}</p>
         </div>
       </div>
 
@@ -40,7 +47,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
             />
           ))}
         </span>
-        <p className="bold-16 md:bold-20 text-white">{peopleJoined}</p>
+        <p className="bold-16 md:bold-20 text-black">{peopleJoined}</p>
       </div>
      </div>
     </div>
@@ -49,29 +56,44 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
 
 const Camp = () => {
   return (
-    <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
+    <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20"
+    style={{
+      
+      'background-color':'#282828'
+      
+      
+    }}
+    
+    >
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <CampSite 
           backgroundImage="bg-bg-img-1"
-          title="Putuk Truno Camp"
-          subtitle="Prigen, Pasuruan"
+          title="Available"
+          subtitle="Always Availabe For You"
           peopleJoined="50+ Joined"
         />
         <CampSite 
           backgroundImage="bg-bg-img-2"
-          title="Mountain View Camp"
-          subtitle="Somewhere in the Wilderness"
+          title="Flexibility"
+          subtitle="Variety Of Assistance"
           peopleJoined="50+ Joined"
         />
       </div>
 
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
-        <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
-          <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
-            <strong>Feeling Lost</strong> And Not Knowing The Way?
+        <div className=" p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl"
+        style={{
+        
+        "background-color":"#B29241"
+        }}>
+          <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-black">
+            <strong>Simplify Your Life</strong> Delegate, Relax, and Achieve More with VAssist
           </h2>
-          <p className="regular-14 xl:regular-16 mt-5 text-white">
-            Starting from the anxiety of the climbers when visiting a new climbing location, the possibility of getting lost is very large. That's why we are here for those of you who want to start an adventure
+          <p className="regular-14 xl:regular-16 mt-5 text-black"
+          
+          
+         >
+            Welcome to VAssist, your one-stop solution for reclaiming your time and maximizing productivity. Picture this: no more juggling emails, scheduling meetings, or managing tedious tasks. With VAssist, you have a dedicated team of virtual assistants ready to tackle your to-do list with precision and efficiency. 
           </p>
           <Image 
             src="/quote.svg"

@@ -5,9 +5,20 @@ import Button from "./Button"
 
 const Navbar = () => {
   return (
-    <nav className="flexBetween max-container padding-container relative z-30 py-5">
+    <nav className="flexBetween max-container padding-container relative z-30 py-5 "
+    
+    style={{
+      
+      'background-color':'#282828',
+      'display':'flex',
+      'justify-content':'center',
+      'align-items':'center'
+      
+      
+    }}
+    >
       <Link href="/">
-        <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
+        <Image src="/hilink-logo.png" alt="logo" width={100} height={75} />
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex">
@@ -27,13 +38,7 @@ const Navbar = () => {
         />
       </div>
 
-      <Image 
-        src="menu.svg"
-        alt="menu"
-        width={32}
-        height={32}
-        className="inline-block cursor-pointer lg:hidden"
-      />
+
     </nav>
   )
 }
