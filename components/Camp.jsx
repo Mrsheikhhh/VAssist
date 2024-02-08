@@ -24,12 +24,12 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
           <h4 className="bold-18"
           style={{
       
-      'color':"#282828"
+      color:"#282828"
     }}>{title}</h4>
           <p className="regular-14 text-white"
           style={{
       
-      'color':"#282828"
+      color:"#282828"
     }}>{subtitle}</p>
         </div>
       </div>
@@ -59,7 +59,7 @@ const Camp = () => {
     <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20"
     style={{
       
-      'background-color':'#282828'
+      backgroundColor:'#282828'
       
       
     }}
