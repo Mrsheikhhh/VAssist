@@ -31,10 +31,10 @@ const Button = ({ type, title, icon, variant, full, onClick, }: ButtonProps) => 
       type={type}
       onClick={isClient ? handleClick : undefined}
       style={{
-      'background-color':'#B29241',
-      'width':'250px',
-      'height':'40px',
-      "color":'#282828'
+        backgroundColor: '#B29241',
+        width: '250px',
+        height: '40px',
+        color: '#282828'
       }}
     >
       {icon && <Image src={icon} alt={title} width={24} height={24} />}
