@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
           <h1 className="bold-52 lg:bold-88" style={{ color: '#B29241' }}>VAssist </h1>
           <p className="regular-16 mt-6 tex xl:max-w-[520px] text-white">
-            V-ASSIST  Makes Your Business Routines Automated So That Your Productivity Enchances
+            V-ASSIST  Makes Your Business Routines Automated So That You Will Work 
           </p>
 
           <div className="my-11 flex flex-wrap gap-5">
