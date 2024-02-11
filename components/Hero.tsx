@@ -4,7 +4,7 @@
 import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 import Button from './Button'
-
+   
 const Hero = () => {
   const router = useRouter()
   const go = async () => {
