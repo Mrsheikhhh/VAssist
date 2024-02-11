@@ -13,6 +13,8 @@ export const PEOPLE_URL = [
   '/person-2.png',
   '/person-3.png',
   '/person-4.png',
+    '/person-1.png',
+  
   
 ];
 
