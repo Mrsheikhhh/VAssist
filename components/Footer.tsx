@@ -67,7 +67,7 @@ const Footer = () => {
         </div>
 
         <div className="border bg-gray-20" />
-        <p className="regular-14 w-full text-center text-white">2023 Hilink | All rights reserved</p>
+        <p className="regular-14 w-full text-center text-white">2024 V-Assists | All rights reserved</p>
       </div>
     </footer>
   )
