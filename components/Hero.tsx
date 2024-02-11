@@ -1,3 +1,6 @@
+
+"use client"
+
 import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 import Button from './Button'
