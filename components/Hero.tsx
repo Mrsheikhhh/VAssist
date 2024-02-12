@@ -26,7 +26,7 @@ const Hero = () => {
             Beyond Boundaries Virtually Yours
           </p>
 
-          <div className="my-11 flex flex-wrap gap-5">
+        {/* <div className="my-11 flex flex-wrap gap-5">
             <div className="flex items-center gap-2">
               {Array(5).fill(1).map((_, index) => (
                 <Image
@@ -42,7 +42,7 @@ const Hero = () => {
               198k
               <span className="regular-16 lg:regular-20 ml-1" style={{ color: "#B29241" }}>Excellent Reviews</span>
             </p>
-          </div>
+          </div>*/}
 
           <div className="flex flex-col w-full gap-3 sm:flex-row ">
             <Button
