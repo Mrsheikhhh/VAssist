@@ -45,7 +45,7 @@ const Hero = () => {
             </p>
           </div>*/}
 
-          <div className="flex flex-col w-full gap-3 sm:flex-row m-1.5 ">
+          <div className="flex flex-col w-full gap-3 sm:flex-row m-2.5 ">
             <Button
               type="button"
               title="SIGN IN"
