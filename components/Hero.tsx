@@ -20,9 +20,14 @@ const Hero = () => {
       <section className="max-cainer padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row" style={{ backgroundColor: '#282828' }}>
         <div className="hero-map" />
 
-        <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
-          <h1 className="bold-52 lg:bold-88" style={{ color: '#B29241' }}>VAssist </h1>
-          <p className="regular-16 mt-6 tex xl:max-w-[520px] text-white">
+        <div className="relative z-20 flex flex-1 flex-col xl:w-1/2" >
+          <h1 className="bold-52 lg:bold-88" style={{ color: '#B29241',
+          'marginLeft':'6px'}}>VAssist </h1>
+          <p className="regular-16 mt-6 tex xl:max-w-[520px] text-white
+          " style={{
+          'marginLeft':'6px'
+          
+          }}>
             Beyond Boundaries Virtually Yours
           </p>
 
@@ -44,7 +49,7 @@ const Hero = () => {
             </p>
           </div>*/}
 
-          <div className="flex flex-col w-full gap-3 sm:flex-row ">
+          <div className="flex flex-col w-full gap-3 sm:flex-row m-1.5 ">
             <Button
               type="button"
               title="SIGN IN"
