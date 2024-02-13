@@ -72,7 +72,7 @@ export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
     { label: 'Team', value: '0318 7683366' },
-    { label: 'Email', value: 'VAssist@gmail.com' },
+    { label: 'Email', value: 'vassist@gmail.com' },
   ],
 };
 
